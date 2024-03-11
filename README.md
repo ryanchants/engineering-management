@@ -1057,6 +1057,8 @@ See also [Data organization](#data-organization)
 
 - [Conway's Law](https://martinfowler.com/bliki/ConwaysLaw.html), Martin Fowler
   - "Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.", Melvin Conway
+- [Conway’s Law in Team Topologies](https://medium.com/@fwynyk/conways-law-in-team-topolgies-did-you-really-get-it-69c1a4d702af)
+  - The Reverse or Inverse Conway Maneuver implies that we should design our teams (not the software yet) to “match” the required software architecture.
 - [Spotify’s Failed #SquadGoals](https://www.jeremiahlee.com/posts/failed-squad-goals/)
   - Engineering managers in this model had little responsibility beyond the career development of the people they managed.
   - There was no single person accountable for the engineering team’s delivery or who could negotiate prioritization of work at an equivalent level of responsibility.
