@@ -913,6 +913,7 @@ Also see my [professional-programming list](https://github.com/charlax/professio
 
 - [Handling Incidents and Outages](https://www.infoq.com/news/2015/06/handling-incidents-outages/)
 - [When the Sky Falls](http://randsinrepose.com/archives/when-the-sky-falls/), Rands in Repose
+- 🎞 [Incident Analysis: How *Learning* is Different Than *Fixing*](https://www.youtube.com/watch?v=Zw_ASI-rk1s&ab_channel=DevSecCon) ([slides](https://speakerdeck.com/jallspaw/incident-analysis-how-star-learning-star-is-different-than-star-fixing-star?slide=8
 
 ### Learning, retro, postmortem
 
@@ -1050,6 +1051,7 @@ Quotes:
   - For the next 3 minutes: ask about the biggest challenges the team has right now.
   - In the final 2 minutes: ask who else you should talk to. Write down every name they give you.
 - [Onboarding](https://martinfowler.com/articles/bottlenecks-of-scaleups/06-onboarding.html), MartinFowler.com
+- [Ask HN: How to onboard yourself to a new product/industry in a new job?](https://news.ycombinator.com/item?id=39777223)
 
 ### Organizational structure
 
