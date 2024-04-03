@@ -714,6 +714,12 @@ See the Performance section too.
 - A good example of [offer letter](https://medium.com/@henrysward/a-better-offer-letter-4e9bf61a7365#.md4rm1zlp) from eShares.
 - [We Hire the Best, Just Like Everyone Else](http://blog.codinghorror.com/we-hire-the-best-just-like-everyone-else/), Jeff Atwood.
 - ⭐️ [How to Hire](https://medium.com/swlh/how-to-hire-34f4ded5f176#.jxkz3wrs3): one of the best articles about hiring.
+  - Hire for Strength vs Lack of Weakness
+  - Hire for Trajectory vs Experience
+  - Hire Doers vs Tellers
+  - Hire Learners vs Experts
+  - Hire Different vs Similar
+  - Always pass on ego
 - ⭐️ [The hiring post](http://sockpuppet.org/blog/2015/03/06/the-hiring-post/): another truly awesome post about hiring by Thomas Ptacek.
 - [This is why you never end up hiring good developers](http://qz.com/258066/this-is-why-you-dont-hire-good-developers/)
   - Many interview techniques test skills that are at best irrelevant to real working life;
@@ -726,11 +732,11 @@ See the Performance section too.
   - Don’t hire assholes, no matter how good they are;
   - If your team isn’t diverse, your team is worse than it needed to be;
   - Accept that hiring takes a really long time and is really, really hard.
-- [The single most sure-fire hiring decision you will ever make](http://behindthescenesrecruiter.com/post/82005145232/the-single-most-sure-fire-hiring-decision-you-will#.VxntfpN94UE) is about establishing an intern program.
 - [Engineering Management - Hiring](http://algeri-wong.com/yishan/engineering-management-hiring.html) explains why hiring should be your top priority.
 - [When we only hire the best means we only hire the trendiest](http://danluu.com/programmer-moneyball/)
 - [How to Hire](https://hbr.org/2018/01/how-to-hire), Patty McCord (built HR function at Netflix).
 - [Trouble hiring senior engineers? It's probably you](https://hiringengineersbook.com/post/trouble-hiring/).
+  - When hiring senior engineers, you’re not buying, you’re selling.
 - [I've been an engineer and a recruiter. Hiring is broken.](http://blog.alinelerner.com/ive-been-an-engineer-and-a-recruiter-hiring-is-broken-heres-why-and-heres-what-it-should-be-like-instead/)
 - 🎧 [How to Get the Ideal Team Player](https://coachingforleaders.com/podcast/301/)
 - [6 qualities that make a great engineer](https://www.intercom.com/blog/traits-of-exceptional-engineers/)
@@ -821,10 +827,9 @@ Specifics about hiring engineering managers:
 
 #### Hiring: job postings
 
-- [A Guide on How To Write a Software Developer Job Description](https://blog.hubstaff.com/how-to-write-job-posting-developers/)
 - [Software Engineer Job Descriptions that Attract the Best Developers](https://www.codementor.io/blog/software-engineer-job-descriptions-that-attract-the-best-developers-241lev4cs8)
-- [How to Write a Job Description for Developers](https://www.codingame.com/work/blog/tech-recruiting/job-description-for-developers/)
 - [How to communicate why your startup is worth joining](https://wasp-lang.dev/blog/2022/08/15/how-to-communicate-why-your-startup-is-worth-joining)
+  - Lots of great ideas.
 
 #### Hiring: process
 
