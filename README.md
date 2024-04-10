@@ -355,6 +355,9 @@ Also check the [charlax/professional-programming's Career Growth section](https:
 - [Engineering levels and progression](https://location.foursquare.com/resources/blog/developer/engineering-levels-and-progression/), Foursquare
   - A pretty concise description of what's expected at different levels (L3, L4, etc.)
 - [On Being A Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/), Kitchen Soap
+- [Keith Rabois on how to identify great talent](https://www.startuparchive.org/p/keith-rabois-on-how-to-identify-great-talent)
+  - “What you want to do with every single employee every single day is expand the scope of their responsibilities until it breaks… and that’s the role they should stay in.”
+  - If you see people frequently going up to a person's desk, it's a sign that that person can help them. Promote these people and give them more responsibility as fast as you can.
 
 Curated examples of job ladder/career development matrix:
 
@@ -570,6 +573,8 @@ See also the section about [Organizational structure](#organizational-structure)
   - Measure Blockers at the Team Level
 
 ### Developer productivity and devexp (developer experience)
+
+*See also the "Personal productivity" section in this page.*
 
 - [DevEx: What Actually Drives Productivity](https://queue.acm.org/detail.cfm?id=3595878), ACM Queue. Defines the components of developer productivity, as well as metrics.
   - Flow state
@@ -1104,8 +1109,11 @@ See also [Data organization](#data-organization)
 - [It’s Never Too Early to Fire](https://a16z.com/2017/05/24/on-firing-why-when-how/), Andreessen Horowitz.
 - [Performance Reviews Are a Waste of Time](https://blog.bradfieldcs.com/performance-reviews-are-a-waste-of-time-87c88d7553b4): a good contrarian take on formal performance reviews
 - [The How and Why of Performance Review Calibration](https://lattice.com/library/the-how-and-why-of-performance-review-calibration)
+- [9 Box Grid: A Practitioner’s Guide](https://www.aihr.com/blog/9-box-grid/)
 
 ### Personal productivity
+
+*See also: Developer productivity section*
 
 About productivity in general:
 
@@ -1147,6 +1155,10 @@ About productivity in general:
 - [Asking questions the right way](https://vadimkravcenko.com/shorts/asking-right-questions/)
 
 > @shreyas: Don’t be fooled by Best Practices. By the time something is labeled and advertised as a Best Practice, it is just average. Following these practices only suggests you won’t be left behind, not that you will lead the pack. Best Practices are actually Average Practices.
+
+Automation:
+
+- [Focus by Automation](https://myme.no/posts/2024-03-19-focus-by-automation.html)
 
 About GTD:
 
