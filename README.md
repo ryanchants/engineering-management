@@ -1005,6 +1005,7 @@ Quote:
 - [Cancel your meetings if you can live with the outcome](https://andygrunwald.com/blog/cancel-your-meetings-if-you-can-live-with-the-outcome/)
 - ["My new favorite team ritual: A weekly meeting called "Fight Club" where you meet with your leadership team with the intention of having a conflict.](https://twitter.com/lennysan/status/1754554023318106596)
 - [Meetings *are* the work.](https://medium.com/@ElizAyer/meetings-are-the-work-9e429dde6aa3)
+- [Embrace Silence](https://tech.forter.com/embrace-silence.html)
 
 ### Mentoring
 
@@ -1743,6 +1744,12 @@ See also the RFCs section.
 - [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
 - [How to Write Something Compelling](https://letter.substack.com/p/write-like-naval?utm_source=url)
   - If you want to design something attractive, you have to add an axis to your creative process. You have to make the ideas simple and universal at the same time.
+- [What I think about when I edit](https://evaparish.com/blog/how-i-edit)
+  - Decide what you’re actually saying
+  - Repeat yourself (within reason)
+  - Eliminate passive voice
+  - Don't use adverbs
+  - Make use of whitespace
 
 ## Other sources
 
