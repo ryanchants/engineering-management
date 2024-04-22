@@ -180,6 +180,7 @@ Other books I haven't read:
 - [Jason Evanish's list](https://jasonevanish.com/books/) (Lighthouse founder) is quite comprehensive.
 - [Holiday Book Recommendations for Engineering Managers, Software Engineers and Product Managers](https://blog.pragmaticengineer.com/holiday-tech-book-recommendations/#books-by-genre), Gergely Orosz
 - [Most Recommended Books to Make You a Better Engineering Manager](https://managersclub.com/most-recommended-books-engineering-leaders/)
+- [10 Must-Reads for Engineering Leaders](https://zaidesanton.substack.com/p/10-must-reads-for-engineering-leaders)
 
 ## What is engineering management?
 
