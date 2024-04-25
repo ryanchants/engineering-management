@@ -586,6 +586,7 @@ See also the section about [Organizational structure](#organizational-structure)
   - Play the long game: avoid having a single-minded agenda
   - Start by identifying “the thorn” in your leadership’s side
   - Quantify the business value of projects
+- [Measuring Developer Productivity via Humans](https://martinfowler.com/articles/measuring-developer-productivity-humans.html), Martin Fowler
 
 ### Diversity and inclusion
 
