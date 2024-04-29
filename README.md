@@ -1491,6 +1491,7 @@ See also my [entrepreneurship-resource repo](https://github.com/charlax/entrepre
   - Show compassion
   - Offer solutions
   - Try this tool: https://estigator.mozz.app/app/
+- [SomeEstimates](https://www.shaiyallin.com/post/someestimates)
 
 ### Release management
 
