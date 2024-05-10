@@ -1523,6 +1523,7 @@ See also my [professional-programming repo](https://github.com/charlax/professio
 - [Lightweight RFC Process](https://cwiki.apache.org/confluence/display/GEODE/Lightweight+RFC+Process), Apache Software Foundation
 - [6 Lessons I learned while implementing technical RFCs as a decision making tool](https://buriti.ca/6-lessons-i-learned-while-implementing-technical-rfcs-as-a-management-tool-34687dbf46cb)
 - [A thorough team guide to RFCs.](https://buriti.ca/a-thorough-team-guide-to-rfcs-8aa14f8e757c)
+- [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
 
 ### Team vision
 
