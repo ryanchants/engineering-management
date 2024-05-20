@@ -1262,6 +1262,15 @@ In terms of task management software, I can't recommend [Things](https://culture
   - Minimize dependencies.
   - Headcount planning won't map to your plans.
   - What if money is no object?
+- [How-to Evaluate a Product Roadmap, for Engineers](https://stephen.fm/how-to-evaluate-a-product-roadmap/)
+  - Does the roadmap clearly connect to the higher-level company or product mission, vision, and strategy?
+  - Is the roadmap intuitive, and can it be easily explained without jargon?
+  - Is the roadmap outcome-oriented or aligned with customer value?
+  - Is the roadmap flexible or iterative?
+  - Are the roadmap initiatives scoped and prioritized based on evidence?
+  - Does the roadmap identify major dependencies or risks?
+  - Does the roadmap feel aggressive but achievable?
+  - Is the roadmap easily referenceable later?
 
 > Truth emerges more readily from error than from confusion.
 > Francis Bacon
