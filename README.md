@@ -1033,6 +1033,7 @@ Quote:
   - Good managers understand that the long game is all about people.
   - Good managers don’t have just one go-to management style nor do they have a notion of “THE ideal employee”.
   - Good managers can discern good intent from bad.
+- [Nvidia CEO Jensen Huang: "you can’t show me a task that is beneath me." Do what is required not what is desired](https://x.com/Codie_Sanchez/status/1794457275802787841)
 
 > It's only when the tide goes out that you learn who's been swimming naked.
 > – Warren Buffet
