@@ -29,7 +29,6 @@
   - [Delivery](#delivery)
   - [Developer productivity and devexp (developer experience)](#developer-productivity-and-devexp-developer-experience)
   - [Diversity and inclusion](#diversity-and-inclusion)
-    - [Diversity in hiring](#diversity-in-hiring)
   - [Employee handbook](#employee-handbook)
   - [Employee retention](#employee-retention)
   - [Escalations](#escalations)
@@ -594,38 +593,15 @@ See also the section about [Organizational structure](#organizational-structure)
   - Most men believe that they have no biases against women and that the organizations in which they work treat women and men equally. If senior-level men read this book, they will realize that neither of these beliefs is correct.
 - 📖 [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow), Wikipedia
   - 🎞 [2 Minutes Book Summary: Thinking Fast and Slow](https://www.youtube.com/watch?v=9ivtvPVkFkw&ab_channel=Lifehack)
-- [Project Include](http://projectinclude.org/): an open community working toward providing meaningful diversity and inclusion solutions for tech companies. A great resource for anything diversity-related.
 - [Guess Who Doesn’t Fit In at Work](http://www.nytimes.com/2015/05/31/opinion/sunday/guess-who-doesnt-fit-in-at-work.html)
-- [Good Intentions Fail at Scale](http://www.fancybeans.com/blog/2016/02/05/good-intentions-fail-at-scale/): great article about why you can't rely on good intentions to increase diversity.
 - [List of cognitive biases on Wikipedia](http://rationalwiki.org/wiki/List_of_cognitive_biases)
 - 🎞 [Making the Unconscious Conscious](https://www.youtube.com/watch?v=NW5s_-Nl3JE) (Google Video)
-- [There’s no "silver bullet" to increasing diversity, but here's how we're making progress.](https://magoosh.com/blog/silver-bullet-diversity-progress/), Magoosh.
-- 🎤 [Diversity & Inclusion: Why and How](https://speakerdeck.com/webmardi/diversity-and-inclusion-why-and-how?slide=25)
-- 🎞 [How microaggressions are like mosquito bites](https://www.youtube.com/watch?v=hDd3bzA7450)
-- [19 Unconscious Bias Examples and How to Prevent Them](https://asana.com/resources/unconscious-bias-examples): a pretty comprehensive article with lots of concrete tips and research.
-- [Proven Strategies for Addressing Unconscious Bias in the Workplace](https://www.cookross.com/docs/UnconsciousBias.pdf)
 
-Some great videos by PwC:
-
-- 🎞 [Blind spots: Challenge assumptions](https://www.youtube.com/watch?v=BFcjfqmVah8&ab_channel=PwC)
-- 🎞 [Blind spots: Overcome stereotypes](https://www.youtube.com/watch?v=6_yIevcJCPc&ab_channel=PwC)
-- 🎞 [Blind spots: Enhance objectivity](https://www.youtube.com/watch?v=Pn5qOgz8dqs&ab_channel=PwC)
-
-How to train the team:
-
-- [Why Diversity Programs Fail](https://hbr.org/2016/07/why-diversity-programs-fail), HBR
-- [Unconscious Bias Training That Works](https://hbr.org/2021/09/unconscious-bias-training-that-works), HBR
-
-Example trainings:
-
-- [Microsoft Inclusion Journey Library](https://www.microsoft.com/en-us/inclusion-journey/library)
-
-#### Diversity in hiring
+Hiring:
 
 - [Why Hiring for "Culture Fit" Hurts Your Culture](http://www.paperplanes.de/2015/6/11/why-hiring-for-culture-fit-hurts-your-culture.html)
 - [Xavier Niel explains 42: the coding university without teachers, books, or tuition](http://venturebeat.com/2016/06/16/xavier-niel-explains-42-the-coding-university-without-teachers-books-or-tuition/): a thought-provoking take on CS diplomas.
 - [A Quick Puzzle to Test Your Problem Solving](http://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html?_r=0)... and a great way to learn about confirmation bias (which is not only applicable to hiring but also to testing).
-- [The Diversity Hiring Playbook](https://business.linkedin.com/content/dam/business/talent-solutions/global/en_US/site/pdf/playbooks/linkedin-diversity-hiring-playbook-en-us.pdf), LinkedIn. Pretty high level but probably a good start.
 - 🎞 [Hiring women at Klarna](https://www.youtube.com/watch?v=JWYNst72ucI)
 
 ### Employee handbook
@@ -1039,6 +1015,8 @@ Quote:
 > – Warren Buffet
 
 > @farbood: Doing the right thing, is direction. Doing things right, is speed.
+
+> @jasonfried: You don’t get to call yourself a leader. That’s up to other people.
 
 ### Motivation
 
