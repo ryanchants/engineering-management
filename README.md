@@ -254,6 +254,10 @@ Here are some generic resources:
 - [Numbers To Know For Managing (Software Teams)](https://staysaasy.com/management/2023/03/20/numbers-to-manage-by.html)
   - 4 - the number of minutes to spend on chit chat in the beginning of a meeting
   - 5 - the number of comments on a document before you should ask to talk about the issue
+- [Unexpected Anti-Patterns for Engineering Leaders](https://review.firstround.com/unexpected-anti-patterns-for-engineering-leaders-lessons-from-stripe-uber-carta/), Will Larson
+  - Unexpected anti-pattern #1: shying away from micromanagement
+  - Unexpected anti-pattern #2: pushing back on measuring flawed metrics
+  - Unexpected anti-pattern #3: serving as the umbrella for your team
 
 ### Tools
 
