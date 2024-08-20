@@ -32,6 +32,7 @@
   - [Employee handbook](#employee-handbook)
   - [Employee retention](#employee-retention)
   - [Escalations](#escalations)
+  - [Executives](#executives)
   - [FinOps (cost)](#finops-cost)
   - [First-time manager](#first-time-manager)
   - [Feedback](#feedback)
@@ -633,6 +634,10 @@ Hiring:
 
 - [Learn how to escalate issues](http://www.goodproductmanager.com/2007/05/09/learn-how-to-escalate-issues/)
 - [Mental frameworks for making decisions](http://nathanbarry.com/mental-frameworks/): how to handle escalations as a manager.
+
+### Executives
+
+- [The One Key to Dealing with Senior Executives: Answer the Question!](https://kellblog.com/2012/01/17/the-one-key-to-dealing-with-senior-executives-answer-the-question/)
 
 ### FinOps (cost)
 
