@@ -1093,6 +1093,7 @@ See also [Data organization](#data-organization)
   - The primary benefit of a platform is to reduce the cognitive load on stream-aligned teams
 - [Beyond the Holacracy Hype](https://hbr.org/2016/07/beyond-the-holacracy-hype)
 - [Organizational boundary problems: too many cooks or not enough kitchens?](https://medium.com/@ElizAyer/organizational-boundary-problems-too-many-cooks-or-not-enough-kitchens-2ddedc6de26a). A lot of useful resources to design organizations.
+- [How and why we built our startup around small teams](https://newsletter.posthog.com/p/the-magic-of-small-engineering-teams)
 
 ### Performance management
 
