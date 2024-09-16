@@ -301,6 +301,7 @@ I don't necessarily agree with everything listed here. Actually, you'll see that
   - What do you need from me to do your best work?
   - What are we currently not doing as a company that you feel we should do?
   - Do you have the opportunity to do what you do best every day?
+- [One on One Meeting Format Ideas](https://marcgg.com/blog/2021/03/27/one-on-one-format/)
 
 ### Antipatterns
 
