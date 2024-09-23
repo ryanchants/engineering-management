@@ -38,7 +38,6 @@
   - [Feedback](#feedback)
   - [Hiring](#hiring)
     - [General](#general)
-    - [Hiring: diversity and biases](#hiring-diversity-and-biases)
     - [Hiring: interviews](#hiring-interviews)
     - [Hiring: interview questions](#hiring-interview-questions)
     - [Hiring: job postings](#hiring-job-postings)
@@ -73,6 +72,7 @@
   - [Remote teams](#remote-teams)
   - [Quality](#quality)
   - [RFCs (request for comments)](#rfcs-request-for-comments)
+  - [Talent management](#talent-management)
   - [Team vision](#team-vision)
   - [Technical strategy](#technical-strategy)
   - [Team culture](#team-culture)
@@ -744,10 +744,6 @@ See the Performance section too.
   - Joel Spolsky says that the ideal programmer is someone who is smart and gets things done. But what about people who are dumb and get things done?
   - Leaders need to make things happen. Teachers need to teach. Programmers need to write code. These basic skills are necessary, but they are not enough.
 
-#### Hiring: diversity and biases
-
-Checkout [Diversity in hiring](#diversity-in-hiring)
-
 #### Hiring: interviews
 
 - [Vanquish whiteboard interview puzzles with test-driven development](http://www.codewithoutrules.com/2016/04/04/interview-puzzles/), Jocelyn Goldfein.
@@ -817,6 +813,7 @@ Specifics about hiring engineering managers:
   - Specifics
   - Obfuscated questions
   - Unspecified behavior
+- [Bug squash: An underrated interview question](https://blog.jez.io/bugsquash/)
 
 #### Hiring: job postings
 
@@ -1524,6 +1521,16 @@ See also my [professional-programming repo](https://github.com/charlax/professio
 - [6 Lessons I learned while implementing technical RFCs as a decision making tool](https://buriti.ca/6-lessons-i-learned-while-implementing-technical-rfcs-as-a-management-tool-34687dbf46cb)
 - [A thorough team guide to RFCs.](https://buriti.ca/a-thorough-team-guide-to-rfcs-8aa14f8e757c)
 - [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
+
+### Talent management
+
+- [Your company needs Junior devs](https://softwaredoug.com/blog/2024/09/07/your-team-needs-juniors)
+  - Junior Talent forces your team to teach, coach, collaborate
+  - Knowledge discovery IS innovation
+  - The “Protege effect” is a well studied phenomenon where the teacher’s knowledge deepens when required to teach.
+  - Generalists innovate better than specialists
+  - Juniors mean psychological safety means more innovation
+  - Your org suffers from not hiring juniors
 
 ### Team vision
 
