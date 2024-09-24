@@ -1101,6 +1101,8 @@ See also [Data organization](#data-organization)
 - [The How and Why of Performance Review Calibration](https://lattice.com/library/the-how-and-why-of-performance-review-calibration)
 - [9 Box Grid: A Practitioner’s Guide](https://www.aihr.com/blog/9-box-grid/)
 - [How to Effectively Manage Low Performers: The CARES Framework](https://blog.novatools.org/how-to-effectively-manage-low-performers-the-cares-framework-702e00732e8d): Communicate, Accountability, Roadmap, Execution, Support.
+- [Unlocking performance management for start-ups and scale-ups](https://leaddev.com/process/unlocking-performance-management-start-ups-and-scale-ups)
+  - `Team performance = f(results, behaviors)`
 
 ### Personal productivity
 
