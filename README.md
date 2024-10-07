@@ -1366,6 +1366,7 @@ See my [professional-programming section about problem solving](https://github.c
 - [The Joel Test: 12 Steps to Better Code](http://www.joelonsoftware.com/articles/fog0000000043.html)
 - [Simple Rules Set You Free](https://art19.com/shows/friction-with-bob-sutton/episodes/772b5237-73f3-45da-b64c-06f0af95637f), from the Friction podcast with Bob Sutton
 - [Constructive Chaos vs. Clusterf***s](https://art19.com/shows/friction-with-bob-sutton/episodes/7f85199b-f380-4f74-8139-b29930dd27b4), from the Friction podcast with Bob Sutton
+- [Bureaucrat mode](https://andrewchen.substack.com/p/bureaucrat-mode?post%5C_id=149020613&publication%5C_id=2401262), Andrew Chen
 
 @samkottler: No amount of process will ensure the right work is getting done.
 
