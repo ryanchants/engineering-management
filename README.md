@@ -1319,6 +1319,7 @@ In terms of task management software, I can't recommend [Things](https://culture
   - Lean into silence
   - Picture yourself as being happy and excited to tell this story
 - [Death by PowerPoint: the slide that killed seven people](https://mcdreeamiemusings.com/blog/2019/4/13/gsux1h6bnt8lqjd7w2t2mtvfg81uhx) (see [Edward Tufte's article on this topic](https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001yB))
+  - See also Edward Tufte's [The Cognitive Style of PowerPoint](https://www.inf.ed.ac.uk/teaching/courses/pi/2016_2017/phil/tufte-powerpoint.pdf), which includes an incredible analysis of this slide.
 - [How to present to executives](https://lethain.com/present-to-executives/), Irrational Exuberance
   - Never fight feedback
   - Don’t evade responsibility or problems
@@ -1329,6 +1330,12 @@ In terms of task management software, I can't recommend [Things](https://culture
   - “Okay I am going to take a few questions before I make my conclusion.”
 - [How to tell a great story](https://www.julian.com/blog/storytelling), Julian Shapiro
   - Blow your own mind
+- [How to Create, Structure, Design, Prepare and Hold a Great Presentation](https://ia.net/topics/five-canons-of-rhetoric), iA, provides a great summary for how to approach and deliver a presentation. It follows Quitilian's Five Canons of Rhetoric:
+  - 1. *Inventio*: developing and refining an argument.
+  - 2. *Dispositio*: organizing an argument for greatest effect.
+  - 3. *Elocutio* (style): presenting the argument.
+  - 4. *Memoria*: learning and memorizing the speech.
+  - 5. *Actio* (delivery): gestures, pronunciation, tone, and pace.
 
 Some great examples of presentations:
 
