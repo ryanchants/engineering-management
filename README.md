@@ -27,17 +27,17 @@
   - [Decisions](#decisions)
   - [Delegation](#delegation)
   - [Delivery](#delivery)
+  - [Developer productivity and devexp (developer experience)](#developer-productivity-and-devexp-developer-experience)
   - [Diversity and inclusion](#diversity-and-inclusion)
-    - [Diversity in hiring](#diversity-in-hiring)
   - [Employee handbook](#employee-handbook)
   - [Employee retention](#employee-retention)
   - [Escalations](#escalations)
+  - [Executives](#executives)
   - [FinOps (cost)](#finops-cost)
   - [First-time manager](#first-time-manager)
-  - [Feedback and performance](#feedback-and-performance)
+  - [Feedback](#feedback)
   - [Hiring](#hiring)
     - [General](#general)
-    - [Hiring: diversity and biases](#hiring-diversity-and-biases)
     - [Hiring: interviews](#hiring-interviews)
     - [Hiring: interview questions](#hiring-interview-questions)
     - [Hiring: job postings](#hiring-job-postings)
@@ -55,28 +55,33 @@
   - [Motivation](#motivation)
   - [Onboarding new team members or yourself](#onboarding-new-team-members-or-yourself)
   - [Organizational structure](#organizational-structure)
-  - [Production and productivity](#production-and-productivity)
+  - [Performance management](#performance-management)
   - [Personal productivity](#personal-productivity)
   - [Planning (roadmap, goal setting, KPI, OKR, etc.)](#planning-roadmap-goal-setting-kpi-okr-etc)
     - [Goals](#goals)
     - [OKRs](#okrs)
-  - [Platform teams & DevEx (developer experience)](#platform-teams--devex-developer-experience)
   - [Presentations, design and public speaking](#presentations-design-and-public-speaking)
   - [Prioritization](#prioritization)
   - [Problem solving](#problem-solving)
   - [Processes for engineering](#processes-for-engineering)
   - [Product management](#product-management)
+  - [Production and productivity](#production-and-productivity)
   - [Project management](#project-management)
     - [Estimating work (project management)](#estimating-work-project-management)
   - [Release management](#release-management)
   - [Remote teams](#remote-teams)
+  - [Quality](#quality)
+  - [RFCs (request for comments)](#rfcs-request-for-comments)
+  - [Talent management](#talent-management)
   - [Team vision](#team-vision)
   - [Technical strategy](#technical-strategy)
   - [Team culture](#team-culture)
   - [Scaling an organization](#scaling-an-organization)
   - [Security](#security)
   - [Soft skills, Emotional Quotient (EQ)](#soft-skills-emotional-quotient-eq)
+  - [Storytelling](#storytelling)
   - [Strategy](#strategy)
+  - [Survey](#survey)
   - [Team dynamics](#team-dynamics)
   - [Training](#training)
   - [Trust](#trust)
@@ -168,12 +173,14 @@ There are some other more specific books quoted below.
 Other books I haven't read:
 
 - [Engineering Management for the Rest of Us](https://www.engmanagement.dev/)
+- [ZachGoldberg/Startup-CTO-Handbook](https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md)
 
 ### Book reading lists
 
 - [Jason Evanish's list](https://jasonevanish.com/books/) (Lighthouse founder) is quite comprehensive.
 - [Holiday Book Recommendations for Engineering Managers, Software Engineers and Product Managers](https://blog.pragmaticengineer.com/holiday-tech-book-recommendations/#books-by-genre), Gergely Orosz
 - [Most Recommended Books to Make You a Better Engineering Manager](https://managersclub.com/most-recommended-books-engineering-leaders/)
+- [10 Must-Reads for Engineering Leaders](https://zaidesanton.substack.com/p/10-must-reads-for-engineering-leaders)
 
 ## What is engineering management?
 
@@ -236,6 +243,22 @@ Here are some generic resources:
   - Procrastinating on hard questions
   - Indefinitely deferring maintenance
   - Angsting instead of asking
+- [How to grow as an Engineering Manager](https://medium.com/srivatsan-sridharan/how-to-grow-as-an-engineering-manager-687cad0bcac7), Srivatsan Sridharan
+  - Create new opportunities for your learning
+  - Choose an archetype:
+    - Inspirational leader
+    - Tough coach
+    - Business strategic
+    - Tech innovator
+    - Master orchestrator
+    - Savvy politician
+- [Numbers To Know For Managing (Software Teams)](https://staysaasy.com/management/2023/03/20/numbers-to-manage-by.html)
+  - 4 - the number of minutes to spend on chit chat in the beginning of a meeting
+  - 5 - the number of comments on a document before you should ask to talk about the issue
+- [Unexpected Anti-Patterns for Engineering Leaders](https://review.firstround.com/unexpected-anti-patterns-for-engineering-leaders-lessons-from-stripe-uber-carta/), Will Larson
+  - Unexpected anti-pattern #1: shying away from micromanagement
+  - Unexpected anti-pattern #2: pushing back on measuring flawed metrics
+  - Unexpected anti-pattern #3: serving as the umbrella for your team
 
 ### Tools
 
@@ -278,6 +301,7 @@ I don't necessarily agree with everything listed here. Actually, you'll see that
   - What do you need from me to do your best work?
   - What are we currently not doing as a company that you feel we should do?
   - Do you have the opportunity to do what you do best every day?
+- [One on One Meeting Format Ideas](https://marcgg.com/blog/2021/03/27/one-on-one-format/)
 
 ### Antipatterns
 
@@ -337,6 +361,9 @@ Also check the [charlax/professional-programming's Career Growth section](https:
 - [Engineering levels and progression](https://location.foursquare.com/resources/blog/developer/engineering-levels-and-progression/), Foursquare
   - A pretty concise description of what's expected at different levels (L3, L4, etc.)
 - [On Being A Senior Engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/), Kitchen Soap
+- [Keith Rabois on how to identify great talent](https://www.startuparchive.org/p/keith-rabois-on-how-to-identify-great-talent)
+  - “What you want to do with every single employee every single day is expand the scope of their responsibilities until it breaks… and that’s the role they should stay in.”
+  - If you see people frequently going up to a person's desk, it's a sign that that person can help them. Promote these people and give them more responsibility as fast as you can.
 
 Curated examples of job ladder/career development matrix:
 
@@ -415,6 +442,16 @@ See my [professional-programming section about code reviews](https://github.com/
   - A statement that instantly elevates the person who is saying it and is simultaneously hard for anyone else to push back on, and so everyone avoids the personal risk and just nods “yes”, even though its actual value in this specific situation might be relatively low, zero, or even negative.
   - E.g., "We need to define the success metrics for X"
   - E.g., "We need a better go-to-market motion to improve product adoption"
+- [How to Communicate When Trust Is Low (Without Digging Yourself Into A Deeper Hole)](https://charity.wtf/2023/08/17/how-to-communicate-when-trust-is-low-without-digging-yourself-into-a-deeper-hole/)
+  - Acknowledge it is hard
+  - Speak tentatively
+  - Try to sound friendly, take a breath
+  - "The story in my head"
+  - Engineer positive interactions (the magic ratio for healthy relationships is at least five positive interactions for every one negative interaction)
+  - Communicate positive intent
+  - Give people the opening to do better
+  - Value the effort
+- [Why You Should Send a Weekly Summary Email](https://jefago.medium.com/why-you-should-send-a-weekly-summary-email-1c556149ed42)
 
 
 ### Conflict resolution
@@ -505,6 +542,16 @@ See also the section about [Organizational structure](#organizational-structure)
 - [Principles.dev - Software Engineering Principles](https://principles.dev/)
 - [Guiding principle: consent over consensus](https://jchyip.medium.com/guiding-principle-consent-over-consensus-8aee08540d62)
 - [Tools for better thinking](https://untools.co/): Situation-Behavior-Impact, conflict resolution diagram, Ishikawa diagram, Einsenhower matrix, second order thinking, decision matrix, etc.
+- [Balancing Engineering Cultures: Debate Everything vs. Just Tell Me What To Build](https://www.fishmanafnewsletter.com/p/balancing-engineering-cultures-debate-vs-do)
+  - To get out of "debate everything"
+    - Help people operate in the "gray area"
+    - Introduce the "FG" scale to streamline debates
+    - Incentivize outcomes
+  - To get out of "just build it"
+    - Incentivize outcomes and feedback
+    - Provide context and venue to discuss
+    - Codify expectations (product and eng)
+- [Ask Questions, Repeat The Hard Parts, and Listen](https://randsinrepose.com/archives/ask-questions-repeat-the-hard-parts-and-listen/), Rands in Repose: a good framework for letting your team make decisions autonomously. "My job is to teach you not to need me"
 
 > Arguments you should avoid using - that are logical fallacies
 > “Because it’s always been done this way.”
@@ -520,6 +567,7 @@ See also the section about [Organizational structure](#organizational-structure)
 
 - [The Counterintuitive Art of Leading by Letting Go](http://99u.com/articles/43081/the-counter-intuitive-art-of-leading-by-letting-go)
 - Against micromanagement: "After you plant a seed in the ground, you don’t dig it up every week to see how it is doing", William Coyne, Head of R&D at 3M.
+- [Your Small Imprecise Ask Is a Big Waste of Their Time](https://staysaasy.com/startups/2023/11/10/imprecise-asks.html)
 
 > The 70/10/80 Principle of delegation: “Find someone who can do what you do at 70% the success rate. Teach them the extra 10% and be okay with 80%.”
 
@@ -530,44 +578,36 @@ See also the section about [Organizational structure](#organizational-structure)
   - Non-measurement unfairly rewards people with charisma while productive but less-persuasive engineers wallow in frustration.
   - Measure Blockers at the Team Level
 
+### Developer productivity and devexp (developer experience)
+
+*See also the "Personal productivity" section in this page.*
+
+- [DevEx: What Actually Drives Productivity](https://queue.acm.org/detail.cfm?id=3595878), ACM Queue. Defines the components of developer productivity, as well as metrics.
+  - Flow state
+  - Feedback loops
+  - Cognitive load
+- [How To Get Buy-in for DevEx Initiatives: Strategies From GitHub, Notion, and More](https://getdx.com/resources/devex-executive-buy-in)
+  - Categorize projects into themes that resonate with leadership
+  - Play the long game: avoid having a single-minded agenda
+  - Start by identifying “the thorn” in your leadership’s side
+  - Quantify the business value of projects
+- [Measuring Developer Productivity via Humans](https://martinfowler.com/articles/measuring-developer-productivity-humans.html), Martin Fowler
+
 ### Diversity and inclusion
 
 - 📖 [Breaking Through Bias: Communication Techniques for Women to Succeed at Work](https://www.amazon.com/Breaking-Through-Bias-Communication-Techniques/dp/B01F93NFP4)
   - Most men believe that they have no biases against women and that the organizations in which they work treat women and men equally. If senior-level men read this book, they will realize that neither of these beliefs is correct.
 - 📖 [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow), Wikipedia
   - 🎞 [2 Minutes Book Summary: Thinking Fast and Slow](https://www.youtube.com/watch?v=9ivtvPVkFkw&ab_channel=Lifehack)
-- [Project Include](http://projectinclude.org/): an open community working toward providing meaningful diversity and inclusion solutions for tech companies. A great resource for anything diversity-related.
 - [Guess Who Doesn’t Fit In at Work](http://www.nytimes.com/2015/05/31/opinion/sunday/guess-who-doesnt-fit-in-at-work.html)
-- [Good Intentions Fail at Scale](http://www.fancybeans.com/blog/2016/02/05/good-intentions-fail-at-scale/): great article about why you can't rely on good intentions to increase diversity.
 - [List of cognitive biases on Wikipedia](http://rationalwiki.org/wiki/List_of_cognitive_biases)
 - 🎞 [Making the Unconscious Conscious](https://www.youtube.com/watch?v=NW5s_-Nl3JE) (Google Video)
-- [There’s no "silver bullet" to increasing diversity, but here's how we're making progress.](https://magoosh.com/blog/silver-bullet-diversity-progress/), Magoosh.
-- 🎤 [Diversity & Inclusion: Why and How](https://speakerdeck.com/webmardi/diversity-and-inclusion-why-and-how?slide=25)
-- 🎞 [How microaggressions are like mosquito bites](https://www.youtube.com/watch?v=hDd3bzA7450)
-- [19 Unconscious Bias Examples and How to Prevent Them](https://asana.com/resources/unconscious-bias-examples): a pretty comprehensive article with lots of concrete tips and research.
-- [Proven Strategies for Addressing Unconscious Bias in the Workplace](https://www.cookross.com/docs/UnconsciousBias.pdf)
 
-Some great videos by PwC:
-
-- 🎞 [Blind spots: Challenge assumptions](https://www.youtube.com/watch?v=BFcjfqmVah8&ab_channel=PwC)
-- 🎞 [Blind spots: Overcome stereotypes](https://www.youtube.com/watch?v=6_yIevcJCPc&ab_channel=PwC)
-- 🎞 [Blind spots: Enhance objectivity](https://www.youtube.com/watch?v=Pn5qOgz8dqs&ab_channel=PwC)
-
-How to train the team:
-
-- [Why Diversity Programs Fail](https://hbr.org/2016/07/why-diversity-programs-fail), HBR
-- [Unconscious Bias Training That Works](https://hbr.org/2021/09/unconscious-bias-training-that-works), HBR
-
-Example trainings:
-
-- [Microsoft Inclusion Journey Library](https://www.microsoft.com/en-us/inclusion-journey/library)
-
-#### Diversity in hiring
+Hiring:
 
 - [Why Hiring for "Culture Fit" Hurts Your Culture](http://www.paperplanes.de/2015/6/11/why-hiring-for-culture-fit-hurts-your-culture.html)
 - [Xavier Niel explains 42: the coding university without teachers, books, or tuition](http://venturebeat.com/2016/06/16/xavier-niel-explains-42-the-coding-university-without-teachers-books-or-tuition/): a thought-provoking take on CS diplomas.
 - [A Quick Puzzle to Test Your Problem Solving](http://www.nytimes.com/interactive/2015/07/03/upshot/a-quick-puzzle-to-test-your-problem-solving.html?_r=0)... and a great way to learn about confirmation bias (which is not only applicable to hiring but also to testing).
-- [The Diversity Hiring Playbook](https://business.linkedin.com/content/dam/business/talent-solutions/global/en_US/site/pdf/playbooks/linkedin-diversity-hiring-playbook-en-us.pdf), LinkedIn. Pretty high level but probably a good start.
 - 🎞 [Hiring women at Klarna](https://www.youtube.com/watch?v=JWYNst72ucI)
 
 ### Employee handbook
@@ -596,6 +636,10 @@ Example trainings:
 - [Learn how to escalate issues](http://www.goodproductmanager.com/2007/05/09/learn-how-to-escalate-issues/)
 - [Mental frameworks for making decisions](http://nathanbarry.com/mental-frameworks/): how to handle escalations as a manager.
 
+### Executives
+
+- [The One Key to Dealing with Senior Executives: Answer the Question!](https://kellblog.com/2012/01/17/the-one-key-to-dealing-with-senior-executives-answer-the-question/)
+
 ### FinOps (cost)
 
 - [Efficiency: Managing Infrastructure Costs](https://infraeng.dev/efficiency/)
@@ -623,20 +667,21 @@ Example trainings:
   - Management creates an unavoidable power hierarchy.
   - You need to be technical enough to intervene.
   - Companies ultimately succeed or fail by their coordinated execution, culture and leadership.
+- [The best leaders are great individual contributors, not professional managers](https://news.ycombinator.com/item?id=33843160), an insightful thread on Hacker News
+- [17 Reasons NOT To Be A Manager](https://charity.wtf/2019/09/08/reasons-not-to-be-a-manager/)
 
-### Feedback and performance
+### Feedback
+
+See the Performance section too.
 
 - 📖 [Radical Candor — The Surprising Secret to Being a Good Boss](http://firstround.com/review/radical-candor-the-surprising-secret-to-being-a-good-boss/)
 - 📖 [Amazon.com: Crucial Conversations Tools for Talking When Stakes Are High](https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second-ebook-dp-B005K0AYH4/dp/B005K0AYH4/ref=mt_kindle?_encoding=UTF8&me=&qid=) by Kerry Patterson.
   - So the first step to achieving the results we really want is to fix the problem of believing that others are the source of all that ails us. It’s our dogmatic conviction that “if we could just fix those losers, all would go better” that keeps us from taking action that could lead to dialogue and progress. Which is why it’s no surprise that those who are best at dialogue tend to turn this logic around. They believe the best way to work on “us” is to start with “me.”
   - Respect is like air. As long as it’s present, nobody thinks about it. But if you take it away, it’s all that people can think about.
   - “One dull pencil is worth six sharp minds.” Don’t leave your hard work to memory. If you’ve gone to the effort to complete a crucial conversation, don’t fritter away all the meaning you created by trusting your memories. Write down the details of conclusions, decisions, and assignments.
-- [Firing people](https://zachholman.com/talk/firing-people): Zach Holman's talk about his experience being fired from Github offers some great insights into a process that is rarely talked about.
-- [It’s Never Too Early to Fire](https://a16z.com/2017/05/24/on-firing-why-when-how/), Andreessen Horowitz.
 - [A Primer on Giving Critical Feedback](http://www.tombartel.de//2016/05/21/a-primer-on-giving-critical-feedback/)
 - Feedback goes both ways: [Tool: Try Google’s Manager Feedback Survey](https://rework.withgoogle.com/guides/managers-give-feedback-to-managers/steps/try-googles-manager-feedback-survey/)
 - [Negative feedback antipatterns](https://www.dein.fr/posts/2016-12-02-negative-feedback-antipatterns)
-- [Performance Reviews Are a Waste of Time](https://blog.bradfieldcs.com/performance-reviews-are-a-waste-of-time-87c88d7553b4): a good contrarian take on formal performance reviews
 - [The Open Feedback Circle (OFC)](https://medium.com/@padminipyapali/open-feedback-circle-a69601ea5dfd), a great idea by Padmini Pyapali.
   - We met once a month, sat around a table, and shared feedback with each other in front of our other teammates. This gathering took feedback exchange from being a biannual activity we dreaded to a monthly ritual we looked forward to.
   - Vulnerability Cultivates Trust
@@ -662,6 +707,12 @@ Example trainings:
 - A good example of [offer letter](https://medium.com/@henrysward/a-better-offer-letter-4e9bf61a7365#.md4rm1zlp) from eShares.
 - [We Hire the Best, Just Like Everyone Else](http://blog.codinghorror.com/we-hire-the-best-just-like-everyone-else/), Jeff Atwood.
 - ⭐️ [How to Hire](https://medium.com/swlh/how-to-hire-34f4ded5f176#.jxkz3wrs3): one of the best articles about hiring.
+  - Hire for Strength vs Lack of Weakness
+  - Hire for Trajectory vs Experience
+  - Hire Doers vs Tellers
+  - Hire Learners vs Experts
+  - Hire Different vs Similar
+  - Always pass on ego
 - ⭐️ [The hiring post](http://sockpuppet.org/blog/2015/03/06/the-hiring-post/): another truly awesome post about hiring by Thomas Ptacek.
 - [This is why you never end up hiring good developers](http://qz.com/258066/this-is-why-you-dont-hire-good-developers/)
   - Many interview techniques test skills that are at best irrelevant to real working life;
@@ -674,11 +725,11 @@ Example trainings:
   - Don’t hire assholes, no matter how good they are;
   - If your team isn’t diverse, your team is worse than it needed to be;
   - Accept that hiring takes a really long time and is really, really hard.
-- [The single most sure-fire hiring decision you will ever make](http://behindthescenesrecruiter.com/post/82005145232/the-single-most-sure-fire-hiring-decision-you-will#.VxntfpN94UE) is about establishing an intern program.
 - [Engineering Management - Hiring](http://algeri-wong.com/yishan/engineering-management-hiring.html) explains why hiring should be your top priority.
 - [When we only hire the best means we only hire the trendiest](http://danluu.com/programmer-moneyball/)
 - [How to Hire](https://hbr.org/2018/01/how-to-hire), Patty McCord (built HR function at Netflix).
 - [Trouble hiring senior engineers? It's probably you](https://hiringengineersbook.com/post/trouble-hiring/).
+  - When hiring senior engineers, you’re not buying, you’re selling.
 - [I've been an engineer and a recruiter. Hiring is broken.](http://blog.alinelerner.com/ive-been-an-engineer-and-a-recruiter-hiring-is-broken-heres-why-and-heres-what-it-should-be-like-instead/)
 - 🎧 [How to Get the Ideal Team Player](https://coachingforleaders.com/podcast/301/)
 - [6 qualities that make a great engineer](https://www.intercom.com/blog/traits-of-exceptional-engineers/)
@@ -688,10 +739,10 @@ Example trainings:
   - Help others be great
   - Know what’s valuable
   - Are creative and positive
-
-#### Hiring: diversity and biases
-
-Checkout [Diversity in hiring](#diversity-in-hiring)
+- [How to hire low experience, high potential people](https://worktopia.substack.com/p/how-to-hire-low-experience-high-potential)
+- [Dumb and gets things done](https://www.johndcook.com/blog/2010/12/27/dumb-and-gets-things-done/)
+  - Joel Spolsky says that the ideal programmer is someone who is smart and gets things done. But what about people who are dumb and get things done?
+  - Leaders need to make things happen. Teachers need to teach. Programmers need to write code. These basic skills are necessary, but they are not enough.
 
 #### Hiring: interviews
 
@@ -762,13 +813,13 @@ Specifics about hiring engineering managers:
   - Specifics
   - Obfuscated questions
   - Unspecified behavior
+- [Bug squash: An underrated interview question](https://blog.jez.io/bugsquash/)
 
 #### Hiring: job postings
 
-- [A Guide on How To Write a Software Developer Job Description](https://blog.hubstaff.com/how-to-write-job-posting-developers/)
 - [Software Engineer Job Descriptions that Attract the Best Developers](https://www.codementor.io/blog/software-engineer-job-descriptions-that-attract-the-best-developers-241lev4cs8)
-- [How to Write a Job Description for Developers](https://www.codingame.com/work/blog/tech-recruiting/job-description-for-developers/)
 - [How to communicate why your startup is worth joining](https://wasp-lang.dev/blog/2022/08/15/how-to-communicate-why-your-startup-is-worth-joining)
+  - Lots of great ideas.
 
 #### Hiring: process
 
@@ -799,6 +850,7 @@ Specifics about hiring engineering managers:
 - [How GitHub does take home technical interviews](https://github.blog/2022-03-31-how-github-does-take-home-technical-interviews/)
 - [guardian/coding-exercises](https://github.com/guardian/coding-exercises)
 - [Take-home vs whiteboard coding: The problem is bad interviews](https://andrewrondeau.com/blog/2020/04/take-home-vs-whiteboard-coding-the-problem-is-bad-interviews)
+- [Live Coding Interviews](https://garrettdimon.com/journal/posts/live-coding-interviews) describes ways in which a live coding interview won't give you accurate signals.
 
 #### Hiring: quotes
 
@@ -856,6 +908,7 @@ Also see my [professional-programming list](https://github.com/charlax/professio
 
 - [Handling Incidents and Outages](https://www.infoq.com/news/2015/06/handling-incidents-outages/)
 - [When the Sky Falls](http://randsinrepose.com/archives/when-the-sky-falls/), Rands in Repose
+- 🎞 [Incident Analysis: How *Learning* is Different Than *Fixing*](https://www.youtube.com/watch?v=Zw_ASI-rk1s&ab_channel=DevSecCon) ([slides](https://speakerdeck.com/jallspaw/incident-analysis-how-star-learning-star-is-different-than-star-fixing-star?slide=8
 
 ### Learning, retro, postmortem
 
@@ -900,6 +953,14 @@ Quotes:
   - One project, one engineering lead
   - Mentoring, then coaching the first few leaders
   - Transparency and accountability via weekly, written updates
+- [All You Need to Become a Servant Leader](https://effyai.substack.com/p/all-you-need-to-become-a-servant)
+  - Examples of servant leaders and book recommendations
+  - You need: empathy, self-awareness, active listening, trust, transparency
+- [Developing leadership styles](https://lethain.com/developing-leadership-styles/), Will Larson, Includes mechanics and examples.
+  - Leading with policy
+  - Leading from consensus
+  - Leading with conviction
+- [From good to great: A capability framework for building exceptional product engineering teams](https://buriti.ca/from-good-to-great-a-capability-framework-for-building-exceptional-product-engineering-teams-a8ca4e9e8f47)
 
 Quote:
 
@@ -926,6 +987,10 @@ Quote:
 - [The Document Culture of Amazon](https://www.justingarrison.com/blog/2021-03-15-the-document-culture-of-amazon/)
   - Documents help eliminate many biases, for or against, the person who wrote the document.
   - There’s no “can you see my screen”, background noise, or call audio disconnects while understanding the main content for the meeting.
+- [Cancel your meetings if you can live with the outcome](https://andygrunwald.com/blog/cancel-your-meetings-if-you-can-live-with-the-outcome/)
+- ["My new favorite team ritual: A weekly meeting called "Fight Club" where you meet with your leadership team with the intention of having a conflict.](https://twitter.com/lennysan/status/1754554023318106596)
+- [Meetings *are* the work.](https://medium.com/@ElizAyer/meetings-are-the-work-9e429dde6aa3)
+- [Embrace Silence](https://tech.forter.com/embrace-silence.html)
 
 ### Mentoring
 
@@ -951,8 +1016,14 @@ Quote:
   - Good managers understand that the long game is all about people.
   - Good managers don’t have just one go-to management style nor do they have a notion of “THE ideal employee”.
   - Good managers can discern good intent from bad.
+- [Nvidia CEO Jensen Huang: "you can’t show me a task that is beneath me." Do what is required not what is desired](https://x.com/Codie_Sanchez/status/1794457275802787841)
 
-Warren Buffet, "It's only when the tide goes out that you learn who's been swimming naked."
+> It's only when the tide goes out that you learn who's been swimming naked.
+> – Warren Buffet
+
+> @farbood: Doing the right thing, is direction. Doing things right, is speed.
+
+> @jasonfried: You don’t get to call yourself a leader. That’s up to other people.
 
 ### Motivation
 
@@ -978,11 +1049,17 @@ Quotes:
   - For the first 25 minutes: ask them to tell you everything they think you should know.
   - For the next 3 minutes: ask about the biggest challenges the team has right now.
   - In the final 2 minutes: ask who else you should talk to. Write down every name they give you.
+- [Onboarding](https://martinfowler.com/articles/bottlenecks-of-scaleups/06-onboarding.html), MartinFowler.com
+- [Ask HN: How to onboard yourself to a new product/industry in a new job?](https://news.ycombinator.com/item?id=39777223)
 
 ### Organizational structure
 
 See also [Data organization](#data-organization)
 
+- [Conway's Law](https://martinfowler.com/bliki/ConwaysLaw.html), Martin Fowler
+  - "Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.", Melvin Conway
+- [Conway’s Law in Team Topologies](https://medium.com/@fwynyk/conways-law-in-team-topolgies-did-you-really-get-it-69c1a4d702af)
+  - The Reverse or Inverse Conway Maneuver implies that we should design our teams (not the software yet) to “match” the required software architecture.
 - [Spotify’s Failed #SquadGoals](https://www.jeremiahlee.com/posts/failed-squad-goals/)
   - Engineering managers in this model had little responsibility beyond the career development of the people they managed.
   - There was no single person accountable for the engineering team’s delivery or who could negotiate prioritization of work at an equivalent level of responsibility.
@@ -1002,26 +1079,34 @@ See also [Data organization](#data-organization)
 - [Structure Eats Strategy](https://janbosch.com/blog/index.php/2017/11/25/structure-eats-strategy/)
   - BAPO: the B (business) should define the A (architecture) which is the starting point for the P (process), on which the O (organization) is based.
   - Most companies are not BAPO but instead they are OPAB: the existing organization is used as a basis for the definition of convenience-driven processes, which in turn leads to an accidental architecture.
+- [Infrastructure Platform Engineering Organizational structures and models](https://www.alashiban.com/you-may-not-need-that-costly-time-consuming-infra-re-org/): an incredible article about how to structure the infra team.
+  - Describes the 4 canonical org models and their pros & cons:
+    - Product org with embed infra teams
+    - Shared cloud engineering team
+    - Infra org
+    - Infra-platform org
+  - Concludes that in the end expertise should be encoded in software solutions & automation
+- [Architects, Anti-Patterns, and Organizational F*ery](https://charity.wtf/2023/03/09/architects-anti-patterns-and-organizational-fuckery/)
+- [Team Topologies](https://martinfowler.com/bliki/TeamTopologies.html), great book summary by Martin Fowler.
+  - The primary benefit of a platform is to reduce the cognitive load on stream-aligned teams
+- [Beyond the Holacracy Hype](https://hbr.org/2016/07/beyond-the-holacracy-hype)
+- [Organizational boundary problems: too many cooks or not enough kitchens?](https://medium.com/@ElizAyer/organizational-boundary-problems-too-many-cooks-or-not-enough-kitchens-2ddedc6de26a). A lot of useful resources to design organizations.
+- [How and why we built our startup around small teams](https://newsletter.posthog.com/p/the-magic-of-small-engineering-teams)
 
-### Production and productivity
+### Performance management
 
-- [The Toyota Way](https://en.wikipedia.org/wiki/The_Toyota_Way), Wikipedia
-  - Base your management decisions on a long-term philosophy, even at the expense of short-term financial goals.
-  - Create a continuous process flow to bring problems to the surface.
-  - Use "pull" systems to avoid overproduction.
-  - Level out the workload
-  - Build a culture of stopping to fix problems, to get quality right the first time
-  - Standardized tasks and processes are the foundation for continuous improvement and employee empowerment.
-  - Use visual control so no problems are hidden.
-  - Use only reliable, thoroughly tested technology that serves your people and processes.
-  - Grow leaders who thoroughly understand the work, live the philosophy, and teach it to others.
-  - Develop exceptional people and teams who follow your company's philosophy.
-  - Respect your extended network of partners and suppliers by challenging them and helping them improve.
-  - Go and see for yourself to thoroughly understand the situation
-  - Make decisions slowly by consensus, thoroughly considering all options; implement decisions rapidly
-  - Become a learning organization through relentless reflection (hansei) and continuous improvement (kaizen)
+- [Firing people](https://zachholman.com/talk/firing-people): Zach Holman's talk about his experience being fired from Github offers some great insights into a process that is rarely talked about.
+- [It’s Never Too Early to Fire](https://a16z.com/2017/05/24/on-firing-why-when-how/), Andreessen Horowitz.
+- [Performance Reviews Are a Waste of Time](https://blog.bradfieldcs.com/performance-reviews-are-a-waste-of-time-87c88d7553b4): a good contrarian take on formal performance reviews
+- [The How and Why of Performance Review Calibration](https://lattice.com/library/the-how-and-why-of-performance-review-calibration)
+- [9 Box Grid: A Practitioner’s Guide](https://www.aihr.com/blog/9-box-grid/)
+- [How to Effectively Manage Low Performers: The CARES Framework](https://blog.novatools.org/how-to-effectively-manage-low-performers-the-cares-framework-702e00732e8d): Communicate, Accountability, Roadmap, Execution, Support.
+- [Unlocking performance management for start-ups and scale-ups](https://leaddev.com/process/unlocking-performance-management-start-ups-and-scale-ups)
+  - `Team performance = f(results, behaviors)`
 
 ### Personal productivity
+
+*See also: Developer productivity section*
 
 About productivity in general:
 
@@ -1060,8 +1145,13 @@ About productivity in general:
 - [Build tools around workflows, not workflows around tools](https://thesephist.com/posts/tools/)
 - [Rethinking Best Practices](https://willgallego.com/2021/08/14/rethinking-best-practices/)
 - [The Cult of Done Manifesto](https://medium.com/@bre/the-cult-of-done-manifesto-724ca1c2ff13)
+- [Asking questions the right way](https://vadimkravcenko.com/shorts/asking-right-questions/)
 
 > @shreyas: Don’t be fooled by Best Practices. By the time something is labeled and advertised as a Best Practice, it is just average. Following these practices only suggests you won’t be left behind, not that you will lead the pack. Best Practices are actually Average Practices.
+
+Automation:
+
+- [Focus by Automation](https://myme.no/posts/2024-03-19-focus-by-automation.html)
 
 About GTD:
 
@@ -1145,6 +1235,32 @@ In terms of task management software, I can't recommend [Things](https://culture
   - Pebbles maximize ROI
   - Beware the surprisingly high impact of estimation error on ROI
 - [Key Performance Indicators Infographic](https://news.kpiinstitute.org/key-performance-indicators-infographic/)
+- [Measure what matters. Even if you don’t fully control it](https://www.madsjohnsen.com/p/measure-what-matters-even-if-you-dont-fully-control-it)
+- [Leading and Lagging Indicators: How to measure Product OKRs](https://herbig.co/leading-lagging-indicators-okrs/). Very clear treatment of the topic, with lots of references and links.
+  - OKR ideally measure outcome, not output.
+  - Lagging indicators are easy to spot, unresponsive and hard to change, definitive results of the past
+  - Leading indicators are difficult to uncover, responsive to team actions, predictors of future success
+  - Whether it's lagging or leading depends on the team/context
+  - Prioritize leading indicators to avoid lagging decision-making
+- [How to plan?](https://kellanem.com/notes/how-to-plan)
+  - Do fewer things.
+  - Bottom up processes don't work.
+  - Planning is the wrong time to introduce anything new.
+  - You must provide frameworks and constraints.
+  - Project planning has an inflection point.
+  - Don't wait to kill bad ideas.
+  - Minimize dependencies.
+  - Headcount planning won't map to your plans.
+  - What if money is no object?
+- [How-to Evaluate a Product Roadmap, for Engineers](https://stephen.fm/how-to-evaluate-a-product-roadmap/)
+  - Does the roadmap clearly connect to the higher-level company or product mission, vision, and strategy?
+  - Is the roadmap intuitive, and can it be easily explained without jargon?
+  - Is the roadmap outcome-oriented or aligned with customer value?
+  - Is the roadmap flexible or iterative?
+  - Are the roadmap initiatives scoped and prioritized based on evidence?
+  - Does the roadmap identify major dependencies or risks?
+  - Does the roadmap feel aggressive but achievable?
+  - Is the roadmap easily referenceable later?
 
 > Truth emerges more readily from error than from confusion.
 > Francis Bacon
@@ -1180,14 +1296,6 @@ In terms of task management software, I can't recommend [Things](https://culture
   - Prefer a small number of tightly focused OKRs to a long list
   - Effective OKR usage takes years
 
-### Platform teams & DevEx (developer experience)
-
-- [How To Get Buy-in for DevEx Initiatives: Strategies From GitHub, Notion, and More](https://getdx.com/resources/devex-executive-buy-in)
-  - Categorize projects into themes that resonate with leadership
-  - Play the long game: avoid having a single-minded agenda
-  - Start by identifying “the thorn” in your leadership’s side
-  - Quantify the business value of projects
-
 ### Presentations, design and public speaking
 
 - 🎞 Garr Reynolds, [Presentation Zen Talk](https://www.youtube.com/watch?v=DZ2vtQCESpk) (Talks at Google)
@@ -1211,6 +1319,7 @@ In terms of task management software, I can't recommend [Things](https://culture
   - Lean into silence
   - Picture yourself as being happy and excited to tell this story
 - [Death by PowerPoint: the slide that killed seven people](https://mcdreeamiemusings.com/blog/2019/4/13/gsux1h6bnt8lqjd7w2t2mtvfg81uhx) (see [Edward Tufte's article on this topic](https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001yB))
+  - See also Edward Tufte's [The Cognitive Style of PowerPoint](https://www.inf.ed.ac.uk/teaching/courses/pi/2016_2017/phil/tufte-powerpoint.pdf), which includes an incredible analysis of this slide.
 - [How to present to executives](https://lethain.com/present-to-executives/), Irrational Exuberance
   - Never fight feedback
   - Don’t evade responsibility or problems
@@ -1219,6 +1328,14 @@ In terms of task management software, I can't recommend [Things](https://culture
   - Don’t fixate on your preferred outcome
 - [1 Trick to Finish Your Next Talk in Style](https://davidnihill.com/1-trick-to-finish-your-next-talk-in-style/)
   - “Okay I am going to take a few questions before I make my conclusion.”
+- [How to tell a great story](https://www.julian.com/blog/storytelling), Julian Shapiro
+  - Blow your own mind
+- [How to Create, Structure, Design, Prepare and Hold a Great Presentation](https://ia.net/topics/five-canons-of-rhetoric), iA, provides a great summary for how to approach and deliver a presentation. It follows Quitilian's Five Canons of Rhetoric:
+  - 1. *Inventio*: developing and refining an argument.
+  - 2. *Dispositio*: organizing an argument for greatest effect.
+  - 3. *Elocutio* (style): presenting the argument.
+  - 4. *Memoria*: learning and memorizing the speech.
+  - 5. *Actio* (delivery): gestures, pronunciation, tone, and pace.
 
 Some great examples of presentations:
 
@@ -1245,6 +1362,7 @@ See also the [Prioritization section on my entrepreneurship-resources list](http
   - Helpful: Briefly recap top 3-4 products or projects every week
   - Helpful: Use Now/Next/Never to frame upcoming choices
   - Helpful: Define in advance what kinds of work can be realistically outsourced, and actively recruit external partners
+- [TBM 245: The Magic Prioritization Trick](https://cutlefish.substack.com/p/tbm-245-the-magic-prioritization)
 
 ### Problem solving
 
@@ -1255,10 +1373,13 @@ See my [professional-programming section about problem solving](https://github.c
 - [The Joel Test: 12 Steps to Better Code](http://www.joelonsoftware.com/articles/fog0000000043.html)
 - [Simple Rules Set You Free](https://art19.com/shows/friction-with-bob-sutton/episodes/772b5237-73f3-45da-b64c-06f0af95637f), from the Friction podcast with Bob Sutton
 - [Constructive Chaos vs. Clusterf***s](https://art19.com/shows/friction-with-bob-sutton/episodes/7f85199b-f380-4f74-8139-b29930dd27b4), from the Friction podcast with Bob Sutton
+- [Bureaucrat mode](https://andrewchen.substack.com/p/bureaucrat-mode?post%5C_id=149020613&publication%5C_id=2401262), Andrew Chen
 
 @samkottler: No amount of process will ensure the right work is getting done.
 
 ### Product management
+
+See also my [entrepreneurship-resource repo](https://github.com/charlax/entrepreneurship-resources).
 
 - [The most important thing Dropbox did to scale Product Management](https://medium.com/startup-grind/the-most-important-thing-dropbox-did-to-scale-product-management-fed90e30697e#.t5uu8idgb): a very simple model for stating the stage a product is in.
 - [How Amazon Web Services (AWS) Achieved an \$11.5B Run Rate by Working Backwards](https://hitenism.com/amazon-working-backwards/): explain Amazon's product management process.
@@ -1269,6 +1390,29 @@ See my [professional-programming section about problem solving](https://github.c
   - Create multidisciplinary stream-aligned teams
   - Negotiate a balanced product investment mix
 
+### Production and productivity
+
+- [The Toyota Way](https://en.wikipedia.org/wiki/The_Toyota_Way), Wikipedia
+  - Base your management decisions on a long-term philosophy, even at the expense of short-term financial goals.
+  - Create a continuous process flow to bring problems to the surface.
+  - Use "pull" systems to avoid overproduction.
+  - Level out the workload
+  - Build a culture of stopping to fix problems, to get quality right the first time
+  - Standardized tasks and processes are the foundation for continuous improvement and employee empowerment.
+  - Use visual control so no problems are hidden.
+  - Use only reliable, thoroughly tested technology that serves your people and processes.
+  - Grow leaders who thoroughly understand the work, live the philosophy, and teach it to others.
+  - Develop exceptional people and teams who follow your company's philosophy.
+  - Respect your extended network of partners and suppliers by challenging them and helping them improve.
+  - Go and see for yourself to thoroughly understand the situation
+  - Make decisions slowly by consensus, thoroughly considering all options; implement decisions rapidly
+  - Become a learning organization through relentless reflection (hansei) and continuous improvement (kaizen)
+- [The LinkedIn DPH Framework](https://linkedin.github.io/dph-framework/)
+  - Goals, Signals, and Metrics
+  - Developer Personas
+  - Common Pitfalls When Designing Metrics
+  - Their example: Developer Build Time (DBT), Post-Merge CI Duration, CI Determinism, Code Reviewer Response Time.
+
 ### Project management
 
 - 📖 [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month) by Frederick Brooks is a classical book about software project management.
@@ -1276,7 +1420,7 @@ See my [professional-programming section about problem solving](https://github.c
     - The boss must first distinguish between action information and status information. He must discipline himself not to act on problems his managers can solve.
 - Jason Yip, [It's Not Just Standing Up: Patterns for Daily Standup Meetings](http://martinfowler.com/articles/itsNotJustStandingUp.html): standup are a pretty controversial topics. This article on Martin Fowler's blog provides a good list of patterns and anti-patterns to ensure they're a good productive use of everybody's time.
 - [15 Fundamental Laws of Software Development](https://www.exceptionnotfound.net/fundamental-laws-of-software-development/)
-- [How we structure our work and teams at Basecamp](https://m.signalvnoise.com/how-we-set-up-our-work-cbce3d3d9cae#.jjb8slcxg)
+- [How we structure our work and teams at Basecamp](https://basecamp.com/articles/how-we-structure-our-teams)
 - [Will your project be a success? Find out in five minutes.](https://www.projectsmart.co.uk/health-check/project-question-answer.php)
 - Project Smart, [Project management tools](https://www.projectsmart.co.uk/tools.php)
 - [How should deadlines be used in software engineering?](https://blog.keen.io/how-should-deadlines-be-used-in-software-engineering/)
@@ -1327,9 +1471,14 @@ See my [professional-programming section about problem solving](https://github.c
   - Making bets with a capped downside (the circuit breaker) and honoring them with uninterrupted time
   - Downhill versus uphill work and communicating about unknowns
 - [Project Management for Software Engineers](https://sookocheff.com/post/engineering-management/project-management-for-software-engineers/): a 5-step process to running a project.
+- [Rescuing a project in progress](https://world.hey.com/jason/rescuing-a-project-in-progress-d31883f7), Jason Fried
+  - Stop, status, selection, focus, finish, next.
 
 > The ultimate inspiration is the deadline.
 > — Nolan Bushnell
+
+> You must create hilariously aggressive deadlines for yourself, otherwise, you’ll get swept away in unnecessary details that aren’t actually mission-critical. If you’re thinking about color schemes and button widths, your timeline is too long.
+> – Tara Viswanathan
 
 #### Estimating work (project management)
 
@@ -1349,6 +1498,7 @@ See my [professional-programming section about problem solving](https://github.c
   - Show compassion
   - Offer solutions
   - Try this tool: https://estigator.mozz.app/app/
+- [SomeEstimates](https://www.shaiyallin.com/post/someestimates)
 
 ### Release management
 
@@ -1364,6 +1514,33 @@ See my [professional-programming section about problem solving](https://github.c
   - How to brainstorm remotely
   - Remote team activities: how to have fun when you work from home
   - The best online whiteboards
+
+### Quality
+
+See also my [professional-programming repo](https://github.com/charlax/professional-programming)
+
+- [The code quality pyramid](https://www.fabianzeindl.com/posts/the-codequality-pyramid)
+
+### RFCs (request for comments)
+
+- [Scaling Engineering Teams via Writing Things Down and Sharing - aka RFCs](https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/), Gergely Orosz
+  - Do planning before building something new.
+  - If everyone agrees how the project should be done then writing the approach down should be a piece of cake.
+  - The type of information pushed to people in an organization shapes the culture considerably.
+- [Lightweight RFC Process](https://cwiki.apache.org/confluence/display/GEODE/Lightweight+RFC+Process), Apache Software Foundation
+- [6 Lessons I learned while implementing technical RFCs as a decision making tool](https://buriti.ca/6-lessons-i-learned-while-implementing-technical-rfcs-as-a-management-tool-34687dbf46cb)
+- [A thorough team guide to RFCs.](https://buriti.ca/a-thorough-team-guide-to-rfcs-8aa14f8e757c)
+- [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
+
+### Talent management
+
+- [Your company needs Junior devs](https://softwaredoug.com/blog/2024/09/07/your-team-needs-juniors)
+  - Junior Talent forces your team to teach, coach, collaborate
+  - Knowledge discovery IS innovation
+  - The “Protege effect” is a well studied phenomenon where the teacher’s knowledge deepens when required to teach.
+  - Generalists innovate better than specialists
+  - Juniors mean psychological safety means more innovation
+  - Your org suffers from not hiring juniors
 
 ### Team vision
 
@@ -1496,6 +1673,9 @@ Engineering values:
   - Helping direct reports improve leadership soft skills
   - Emphasizing leadership soft skills in your culture
 
+### Storytelling
+
+See Presentation
 
 ### Strategy
 
@@ -1508,6 +1688,10 @@ Shameless plug here, two presentations I contributed to:
 - [Can Do Vs Must Do](http://avc.com/2017/05/can-do-vs-must-do/) , AVC. "Doing a startup is like playing a video game. Each level requires you to master one thing and once you do that, you level up and then there is a new thing to master."
 - "Waterline principle" from Bill Gore: "Think of being on a ship, and imagine that any decision gone bad will blow a hole in the side of the ship. If you blow a hole above the waterline (where the ship won’t take on water and possibly sink), you can patch the hole, learn from the experience, and sail on. But if you blow a hole below the waterline, you can find yourself facing gushers of water pouring in, pulling you toward the ocean floor. And if it’s a big enough hole, you might go down really fast, just like some of the financial firm catastrophes of 2008. To be clear, great enterprises do make big bets, but they avoid big bets that could blow holes below the waterline.", How We Might Fall.
 - [Write five, then synthesize: good engineering strategy is boring](https://lethain.com/good-engineering-strategy-is-boring/), Will Larson.
+
+### Survey
+
+- [Using cultural survey data.](https://lethain.com/using-cultural-survey-data/), Will Larson
 
 ### Team dynamics
 
@@ -1559,7 +1743,9 @@ Shameless plug here, two presentations I contributed to:
 
 ### Writing
 
-➡️ See also my [professional-programming list](https://github.com/charlax/professional-programming#writing)
+➡️  See also my [professional-programming list](https://github.com/charlax/professional-programming#writing)
+
+See also the RFCs section.
 
 - [The 7 Emails You Need to Know How to Write](http://unreasonable.is/the-7-emails-you-need-to-know-how-to-write/)
 - [The Inverted Pyramid](https://en.wikipedia.org/wiki/Inverted_pyramid) or [BLUF (bottom line up front)](<https://en.wikipedia.org/wiki/BLUF_(communication)>) (Wikipedia): a method to prioritize and structure information in a text.
@@ -1576,15 +1762,15 @@ Shameless plug here, two presentations I contributed to:
   - Easy to Search. Single Source of Truth.
   - Balancing Async and Synchronous Communication
   - Thinking Out Loud
-- [Scaling Engineering Teams via Writing Things Down and Sharing - aka RFCs](https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/), Gergely Orosz
-  - Do planning before building something new.
-  - If everyone agrees how the project should be done then writing the approach down should be a piece of cake.
-  - The type of information pushed to people in an organization shapes the culture considerably.
-- [Lightweight RFC Process](https://cwiki.apache.org/confluence/display/GEODE/Lightweight+RFC+Process), Apache Software Foundation
-- [6 Lessons I learned while implementing technical RFCs as a decision making tool](https://buriti.ca/6-lessons-i-learned-while-implementing-technical-rfcs-as-a-management-tool-34687dbf46cb)
 - [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
 - [How to Write Something Compelling](https://letter.substack.com/p/write-like-naval?utm_source=url)
   - If you want to design something attractive, you have to add an axis to your creative process. You have to make the ideas simple and universal at the same time.
+- [What I think about when I edit](https://evaparish.com/blog/how-i-edit)
+  - Decide what you’re actually saying
+  - Repeat yourself (within reason)
+  - Eliminate passive voice
+  - Don't use adverbs
+  - Make use of whitespace
 
 ## Other sources
 
